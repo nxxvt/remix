@@ -84,9 +84,8 @@ client.on(`message`, async (message) => {
     message.reply(new Discord.MessageEmbed()
                   .setColor("#FC00FF")
                   .setDescription(` 
-Support Server - [Click Me](https://discord.gg/u4CbGW4qTT)
-Bot Link - [Click Me](https://discord.com/oauth2/authorize?client_id=792047204361175091&permissions=1076131920&scope=bot)
-Bot Vote - [Click Me](https://top.gg/bot/792047204361175091)
+Support Server - [Click Me](https://discord.gg/WyaywkSHbC)
+Bot Link - [Click Me](https://discord.com/api/oauth2/authorize?client_id=704397709662224535&permissions=8&scope=bot)
 `) 
                   .setTitle(`
 Join a voice channel and \`>play\` a song.
@@ -153,11 +152,8 @@ if(message.content.startsWith(`${prefix}vote`)){
     const embed = new Discord.MessageEmbed()
     .setColor("#FC00FF")
     .setDescription (`
-<:Rimexfacebook:831706935740858369>** : [Facebook](https://www.facebook.com/ahmad.mahmwd.374)**
-<a:lodaing:813403104384647238>  
-<:Rimexinstagram:831706971890909204>** : [Youtube](https://youtube.com/channel/UCwEmB4t-LUVgfsbl4GOqDdg)**
-<a:lodaing:813403104384647238>     
-<:Rimixsnap:831707005323444234>** : [Snap](https://www.snapchat.com/add/dakr_man2021)**
+<:Rimexfacebook:831706935740858369>** : [Facebook](https://www.facebook.com/anas.dler.14)**
+<:Rimixsnap:831707005323444234>** : [Snap](https://www.snapchat.com/add/mr_wizo2020)**
 `)
     .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
     .setAuthor(`🖇️ Social Media`)
