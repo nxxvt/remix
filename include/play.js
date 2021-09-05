@@ -147,10 +147,10 @@ module.exports = {
        
       
         .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
-        .addField("<a:rast:813403866472251399> Requested by :", `${message.author}`, true)
-        .addField("<:file:813460388057972736> Text Channel :", `\`#${message.channel.name}\``, true)
-        .addField("<a:Voulome:827114142610751578> Volume :", `\`100\``, true)
-        .addField("<a:time:813403485902864435> Time :", `\`${song.duration} Minutes 🖇\``, true)
+        .addField("<a:notfication:884089158170206258> Requested by :", `${message.author}`, true)
+        .addField("<a:emoji_31:884163896590618664> Text Channel :", `\`#${message.channel.name}\``, true)
+        .addField("<a:emoji_32:884164729923309579> Volume :", `\`100\``, true)
+        .addField("<a:time:884045404684050443> Time :", `\`${song.duration} Minutes 🖇\``, true)
 
       var playingMessage = await queue.textChannel.send(newsong);
       
