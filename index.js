@@ -197,27 +197,27 @@ if(message.content.startsWith(`${prefix}vote`)){
     .setAuthor("Remix Bot ✨", "https://cdn.discordapp.com/avatars/792047204361175091/c3c061050f56e58aa1f008de8b86dd26.png?size=2048")
     .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
     .setDescription(`
-**[Remix Bot Stats](https://discord.com/oauth2/authorize?client_id=792047204361175091&permissions=1076131920&scope=bot)**
-Hey My name is **Remix Bot** and My Work is to play Music
-**Owner Bot :**
-<@637299944939585576>
-●  
-**Name Bot :**
-Remix Bot ✨#9054 
-●
-**Prefix Bot :**
+**[Lilaaaa ✨ Stats](https://discord.com/api/oauth2/authorize?client_id=704397709662224535&permissions=8&scope=bot)**
+Hey My name is **Lilaaaa ✨** and My Work is to play Music
+**<a:star2:884088337705603112> Owner Bot :**
+<@603886576279224340>
+
+**<a:star:884087313074905089> Name Bot :**
+Lilaaaa ✨#9054 
+
+**<a:anime:884039683997319209> Prefix Bot :**
 ${prefix}
-●
-**Job Bot :**
-Music
-●
-**Server :** 
+
+**<a:work:884093888829218886> Job Bot :**
+All Command
+
+**<a:earth:884092052432900126> Server :** 
 ${client.guilds.cache.size}
-●
-**Ping :**
+
+**<a:waiting:884044243176411206> Ping :**
 ${client.ws.ping}
-● 
-**Version :**
+
+**<a:emoji_28:884108281365299220> Version :**
 V2
 `)
 
