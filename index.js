@@ -194,7 +194,7 @@ if(message.content.startsWith(`${prefix}vote`)){
     //define embed
     const embed = new Discord.MessageEmbed()
     .setColor("#FC00FF")
-    .setAuthor("Remix Bot ✨", "https://cdn.discordapp.com/avatars/792047204361175091/c3c061050f56e58aa1f008de8b86dd26.png?size=2048")
+    .setAuthor("Lilaaaa ✨", "https://cdn.discordapp.com/avatars/792047204361175091/c3c061050f56e58aa1f008de8b86dd26.png?size=2048")
     .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
     .setDescription(`
 **[Lilaaaa ✨ Stats](https://discord.com/api/oauth2/authorize?client_id=704397709662224535&permissions=8&scope=bot)**
@@ -265,7 +265,7 @@ V2
 });
 
 client.on("guildCreate", guild => {
-  let channel = client.channels.cache.get("833427164124282930");
+  let channel = client.channels.cache.get("883092199531769897");
   let embed = new MessageEmbed().setColor("#FC00FF")
   .setAuthor(client.user.username, client.user.avatarURL())
   .setTitle( `✅ Join Server`)
@@ -279,7 +279,7 @@ client.on("guildCreate", guild => {
 });
 
 client.on("guildDelete", guild => {
-  let channel = client.channels.cache.get("833427164124282930");
+  let channel = client.channels.cache.get("883092571230986283");
   let embed = new MessageEmbed()
   .setColor("#FC00FF")
   .setTimestamp()
