@@ -15,7 +15,7 @@ module.exports = {
     let commands = message.client.commands.array();
 
     let helpEmbed = new MessageEmbed()
-   .setDescription("<a:rast:813403866472251399> **[Click here](https://discord.com/api/oauth2/authorize?client_id=704397709662224535&permissions=8&scope=bot) to invite the bot.**")
+   .setDescription("<a:dasarast:884042158821244928> | **[Click here](https://discord.com/api/oauth2/authorize?client_id=704397709662224535&permissions=8&scope=bot) to invite the bot.**")
     .setColor("#FC00FF")
    helpEmbed  
    message.react("<a:emoji_81:779961595656536084>")
