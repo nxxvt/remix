@@ -152,8 +152,8 @@ if(message.content.startsWith(`${prefix}vote`)){
     const embed = new Discord.MessageEmbed()
     .setColor("#FC00FF")
     .setDescription (`
-<:Rimexfacebook:831706935740858369>** : [Facebook](https://www.facebook.com/anas.dler.14)**
-<:Rimixsnap:831707005323444234>** : [Snap](https://www.snapchat.com/add/mr_wizo2020)**
+<:fb:884096880630464543> ** : [Facebook](https://www.facebook.com/anas.dler.14)**
+<:sc:884097302308978709> ** : [Snap](https://www.snapchat.com/add/mr_wizo2020)**
 `)
     .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
     .setAuthor(`🖇️ Social Media`)
