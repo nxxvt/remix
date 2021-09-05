@@ -172,15 +172,14 @@ if(message.content.startsWith(`${prefix}vote`)){
     .setColor("#FC00FF")
     .setDescription (`
 
-<a:rast:813403866472251399> **[Invite](https://discord.com/oauth2/authorize?client_id=792047204361175091&permissions=1076131920&scope=bot)**
-<a:lodaing:813403104384647238>     
-<a:rast:813403866472251399> **[Support](https://discord.gg/geu89kZ7Rt)**
-<a:lodaing:813403104384647238>  
-<a:rast:813403866472251399> **[Vote](https://top.gg/bot/792047204361175091)**
+<a:dasarast:884042158821244928> **[Invite](https://discord.com/api/oauth2/authorize?client_id=704397709662224535&permissions=8&scope=bot)**
+   
+<a:dasarast:884042158821244928> **[Support](https://discord.gg/WyaywkSHbC)**
+ 
 
 `)
     .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
-    .setAuthor(`Support Remix Bot`, `https://cdn.discordapp.com/avatars/792047204361175091/c3c061050f56e58aa1f008de8b86dd26.png?size=2048`)
+    .setAuthor(`Support Lilaaaa ✨`, `https://cdn.discordapp.com/avatars/792047204361175091/c3c061050f56e58aa1f008de8b86dd26.png?size=2048`)
     .setImage(`https://cdn.discordapp.com/attachments/795388713659269150/820761124310876160/23-51-29-image0-40.gif`)
     
     //send the Message
