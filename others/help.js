@@ -20,28 +20,28 @@ module.exports = {
     .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
     .setAuthor("Lilaaaa ✨", "https://cdn.discordapp.com/avatars/792047204361175091/c3c061050f56e58aa1f008de8b86dd26.png?size=1024")
     .setDescription(` 
-<a:discord:813406342173818910> **| User Commands**
+<a:dis:884040257274802236> **| User Commands**
 > \`invite . invites . support . about   avatar . ping . prefix . uptime  . vote . se . serverinfo   servericon(icon) . userinfo(user)   emojify . emojiinfo(emoji) . social   membercount(count)\`
 
  
-<a:setting:813404135181385759> **| Moderation Commands**
+<a:security:884038356558839818> **| Moderation Commands**
 > \`lock(l) . unlock(ul) . slowmode . ban   bans . unban . createchannel   deletechannel   mute . unmute   giveaway . embed . say . cv\`
 
 
-<a:emoji_2:839038769087905793> **| Gif Commands**
+<a:gif:884037595762425887> **| Gif Commands**
 > \`boy . girl . baby . smoke\` 
 
 
-<a:winner:817425780992114708> **| Game Commands**
+<a:anime:884039683997319209> **| Game Commands**
 > \`slap . hug\`
 
 
-<a:emoji_17:864935810192769074> **| Music Commands**
+<a:music:884037265901363210> **| Music Commands**
 > \`play . skip . skipto . stop . volume   nowplaying . shuffle . search . resume   remove . queue . filter . loop   lyrics . radio\` 
 
 
 
-<a:links:813729922643263558> **| Links**
+<a:link:884039220564471858>  **| Links**
 __**[Support](https://discord.gg/WyaywkSHbC)**__ **-**  __**[Invite](https://discord.com/api/oauth2/authorize?client_id=704397709662224535&permissions=8&scope=bot)**__
 `)
    helpEmbed
