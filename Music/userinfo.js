@@ -31,41 +31,41 @@ module.exports = {
             .setThumbnail(user.user.displayAvatarURL({dynamic : true}))
             .addFields(
                 {
-                    name: "<a:KING:820738504036188181> Name : ",
+                    name: "<a:star2:884088337705603112> User Name : ",
                     value: user.user.username,
                     inline: true
                 },
                 {
-                    name: "#️⃣ Discriminator: ",
+                    name: "<a:star:884087313074905089> Discriminator: ",
                     value: `#${user.user.discriminator}`,
                     inline: true
                 },
                 {
-                    name: "🆔 ID : ",
+                    name:  "<a:load:884088687917404210> User ID : ",
                     value: user.user.id,
                 },
                 
                 {
-                    name: "<a:waya:813455060864073788> Activity : ",
+                    name: "<a:notfication:884089158170206258> Activity : ",
                     value: user.presence.activities[0] ? user.presence.activities[0].name : `User isn't playing a game!`,
                     inline: true
                 },
                 {
-                    name: '<a:links:813729922643263558> Avatar link : ',
+                    name: '<a:link:884039220564471858> Avatar link : ',
                     value: `[Click Here](${user.user.displayAvatarURL()})`
                 },
                 {
-                    name: '<a:time:813403485902864435> Creation Date : ',
+                    name: '<a:time:884045404684050443> Creation Date : ',
                     value: user.user.createdAt.toLocaleDateString("en-us"),
                     inline: true
                 },
                 {
-                    name: '<a:discord:813406342173818910> Joined Date : ',
+                    name: '<a:dis:884040257274802236> Joined Date : ',
                     value: user.joinedAt.toLocaleDateString("en-us"),
                     inline: true
                 },
                 {
-                    name: '<a:KING:820738504036188181> User Roles : ',
+                    name: '<a:king:884086609643995146> User Roles : ',
                     value: user.roles.cache.map(role => role.toString()).join(" ,"),
                     inline: true
                 }
