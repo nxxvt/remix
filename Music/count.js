@@ -29,7 +29,7 @@ module.exports = {
     const embed = new MessageEmbed()
       .setColor(`#FC00FF`)
       .setTitle(`Members Information`)
-      .addField(`<a:discord:813406342173818910> | All Members`, Members)
+      .addField(`<a:dis:884040257274802236> | All Members`, Members)
       .setThumbnail(message.guild.iconURL({ dynamic: true }))
       .setAuthor(`${message.guild.name}`)
       .setTimestamp();
