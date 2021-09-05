@@ -21,7 +21,7 @@ module.exports = {
     .setAuthor(`${message.guild.name}`,message.guild.iconURL({ dynamic: true }))
     .addField('<a:crown:884093049452527666> Owner Server :',`<@${message.guild.ownerID}>`,true)
     .addField('<a:time:884045404684050443> Created On :',message.guild.createdAt.toLocaleString())
-    .addField('🆔 Server ID :',`\`${message.guild.id}\``,true)
+    .addField('<a:load:884088687917404210> Server ID :',`\`${message.guild.id}\``,true)
     .addField('<a:dis:884040257274802236> Members :',`\`${message.guild.memberCount}\``,true)
     .addField('<a:star3:884091781178855535> Channels :',`\`${message.guild.channels.cache.size}\``,true)
     .addField('<a:earth:884092052432900126> Region :',`\`${message.guild.region}\``,true)
