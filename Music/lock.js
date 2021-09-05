@@ -21,10 +21,10 @@ module.exports = {
    .setThumbnail(message.author.avatarURL({dynamic: "true"}))
    .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
    .setDescription(`
-🔒 Locked Channel
+<a:security:884038356558839818> | Locked Channel
 Channel Name : <#${message.channel.id}>
 Locked By : <@${message.author.id}>
-Channel Status : Send Message <a:close:813455155991019543>
+Channel Status : Send Message <a:emoji_12:884054544458342460> 
 
 `)
    .setColor("#FC00FF");
