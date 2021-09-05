@@ -36,7 +36,7 @@ module.exports = {
 > \`slap . hug\`
 
 
-<a:dark:813714900777959444> **| Music Commands**
+<a:emoji_17:864935810192769074> **| Music Commands**
 > \`play . skip . skipto . stop . volume   nowplaying . shuffle . search . resume   remove . queue . filter . loop   lyrics . radio\` 
 
 
