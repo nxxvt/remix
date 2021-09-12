@@ -454,7 +454,46 @@ client.on("message", message => {
   }
 });
 
+////////////
+client.on("message", message => {
+  if (message.content.startsWith(PREFIX + "anime")) {
+    let man = [
+      "https://media.discordapp.net/attachments/737803741037854750/791307689174368266/image0.gif",
+      "https://media.discordapp.net/attachments/737803741037854750/780513385094840400/image1.gif",
+      "https://media.discordapp.net/attachments/608711485849337856/859787090652823572/image0.gif",
+      "https://media.discordapp.net/attachments/694694884459937862/795704994661531648/image0_7.gif",
+      "https://media.discordapp.net/attachments/608711485849337856/832556613172723762/AdelsaAnimeGif-5.gif",
+      "https://media.discordapp.net/attachments/737803741037854750/771174875158282270/84091b4211185071ccdbfd093dc42c3c.gif",
+      "https://images-ext-1.discordapp.net/external/-wnV7bpoGPShn6cOJB_-nFvQRVnXaeBVizDh2Bewl2w/https/media.discordapp.net/attachments/697505578972348436/868274915793588274/a_c569f2e1f52ff6c4c2f809e218ac1595.gif",
+      "https://media.discordapp.net/attachments/608711485849337856/832962704591421450/Feenx_Gif_4.gif",
+      "https://images-ext-2.discordapp.net/external/Rqa-Q7QJN-42F2PuORFj7ELNr3ugjYwSjWWBpQ8Nhfc/https/media.discordapp.net/attachments/697505578972348436/868441061306019891/a_ecedb7fb0563d0fc4974ec026bbea1c3.gif",
+      "https://images-ext-2.discordapp.net/external/MxI5h2A_1HXy1Q0Xgp4QqUCG2pYgX8-qBqVw-bNdBp8/https/media.discordapp.net/attachments/697505578972348436/866578383671787580/a_40cdd78e4f203eff7f9ac421a617690f.gif",
+      "https://media.discordapp.net/attachments/737803741037854750/791307773039214652/image0.gif",
+      "https://media.discordapp.net/attachments/694694884459937862/799508744656257024/image0-4.gif",
+      "https://images-ext-1.discordapp.net/external/4UAt2-7vYymmgMT3EkbgP3GocsfreNbQCCQZJdky2Go/https/media.discordapp.net/attachments/697505578972348436/866420345221021706/BaranGif.45.gif",
+      "https://images-ext-1.discordapp.net/external/_LjqQcVO94pHvrk39v03I0U_F5aXo1GK9v3cxa1os5o/https/media.discordapp.net/attachments/608711485849337856/859895719111294976/a_b7011decdd1c826e543925c2e6390ee8.gif",
+      "https://media.discordapp.net/attachments/694694884459937862/797094656122683412/a_80133297a8a819f10e44ad8e95a5ff81.gif",
+      "https://media.discordapp.net/attachments/608711485849337856/833291879184597042/x.gif",
+    ];
 
+    message.channel
+      .send({
+        embed: {
+          description: `**Gif Anime**`,
+          footer: `Requested by ${message.author.username}`,
+          color: `#FC00FF`,
+          image: {
+            url: man[Math.floor(Math.random() * man.length)]
+          }
+        }
+      })
+
+.catch(e => {
+        client.log.error(e);
+      });
+  }
+});
+/////////
 function delay(delayInms) {
  return new Promise(resolve => {
    setTimeout(() => {
