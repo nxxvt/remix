@@ -29,7 +29,7 @@ module.exports = {
 
 
 <a:gif:884037595762425887> **| Gif Commands**
-> \`boy . girl . baby . smoke\` 
+> \`boy . girl . baby . smoke . anime\` 
 
 
 <a:anime:884039683997319209> **| Game Commands**
